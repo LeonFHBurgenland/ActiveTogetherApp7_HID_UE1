@@ -1,12 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-about-page',
   standalone: true,
   imports: [],
   templateUrl: './about-page.component.html',
-  styleUrl: './about-page.component.css'
+  styleUrls: ['./about-page.component.css']
 })
-export class AboutPageComponent {
+export class AboutPageComponent implements OnInit {
+  bees: string = '';
 
+  ngOnInit(): void {
+    this.bees = '🐝'.repeat(100000);
+  }
 }

@@ -23,7 +23,7 @@ export class DataComponent {
   }
 
   public returnAllPages() {
-    var pagesCount = Math.ceil(this.storeService.registrationTotalCount / 2);
+    var pagesCount = Math.ceil(this.storeService.registrationTotalCount / 4);
     let res = [];
     for (let i = 0; i < pagesCount; i++) {
         res.push(i + 1);
