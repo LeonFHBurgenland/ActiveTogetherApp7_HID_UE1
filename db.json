@@ -118,6 +118,13 @@
       "birthdate": "2024-10-02T22:00:00.000Z",
       "newsletter": true,
       "id": 7
+    },
+    {
+      "name": "Peter P",
+      "courseId": "_iL775j",
+      "birthdate": "2023-12-31T23:00:00.000Z",
+      "newsletter": false,
+      "id": 8
     }
   ]
 }
